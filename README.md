@@ -78,12 +78,6 @@ WHEN QUERY IS ABOVE 1
 Pending period: 1–2 минуты  
 Evaluation interval: 1–2 минуты
 
-## Проверка алерта
-
-1. Запускаем сервис в обычном режиме — p95 < 1s, алерт Normal.
-2. Запускаем с `SLOW_MODE=1` — p95 > 1s → Pending → Firing.
-
-
 ## Скриншоты
 
 Папка `screenshots/` содержит:

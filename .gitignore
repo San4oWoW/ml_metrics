@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+dist/
+build/
+*.log
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+# PyCharm
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# --- Docker ---
+# Local volumes, generated files
+prometheus/data/
+grafana/data/
